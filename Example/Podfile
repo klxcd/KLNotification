@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'KLNotification_Example' do
+  pod 'KLNotification', :path => '../'
+
+  target 'KLNotification_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
