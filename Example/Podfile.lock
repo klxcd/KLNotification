@@ -1,0 +1,27 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - KLNotification (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - KLNotification (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  KLNotification:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  KLNotification: 3c10b9672ff61d1e2b7b0c32c3fe507b9acd782f
+
+PODFILE CHECKSUM: e635e9df2c81cdaa04338f76ef63a8a9d48aea13
+
+COCOAPODS: 1.12.1
